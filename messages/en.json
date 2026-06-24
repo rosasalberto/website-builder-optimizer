@@ -4,7 +4,11 @@
     "getStarted": "Get started",
     "learnMore": "Learn more",
     "readMore": "Read more",
-    "loading": "Loading…"
+    "loading": "Loading…",
+    "selectLanguage": "Select language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu"
   },
   "nav": {
     "features": "Features",
@@ -14,11 +18,262 @@
     "contact": "Contact"
   },
   "home": {
-    "eyebrow": "Open-source website builder",
-    "title": "Launch a perfectly optimized website in minutes",
-    "subtitle": "Multi-locale, SEO + GEO optimized, with its own CMS and an autonomous growth toolchain — all in one repo.",
+    "eyebrow": "Open-source website template",
+    "title": "Launch a fast, multi-language website in minutes",
+    "subtitle": "Ship a content-managed marketing site with built-in search engine optimization (SEO), four languages, and a headless content management system (CMS) — all from one repository.",
     "primaryCta": "Get started",
-    "secondaryCta": "Read the docs"
+    "secondaryCta": "View features",
+    "logosTitle": "Trusted by teams shipping on the web",
+    "features": {
+      "eyebrow": "Everything included",
+      "title": "One template, every page you need",
+      "description": "Edit one config file to rebrand the whole site. The components, routing, and content layer are already wired up.",
+      "items": [
+        { "title": "Config-driven branding", "description": "Set your name, colors, navigation, and social links in a single file. Every page updates at once." },
+        { "title": "Four languages out of the box", "description": "Locale-aware routing and translated content ship by default. Add or remove languages from one list." },
+        { "title": "Headless content management", "description": "Write posts and pages in an admin panel backed by a database, not by files in the codebase." },
+        { "title": "Search engine optimization built in", "description": "Canonical URLs, hreflang, sitemaps, and structured data are generated for you on every route." },
+        { "title": "Accessible components", "description": "Semantic landmarks, keyboard navigation, and clear focus styles come standard across the library." },
+        { "title": "Fast by default", "description": "Server-rendered pages, image optimization, and minimal client code keep load times low." }
+      ]
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "From clone to live in three steps",
+      "description": "No boilerplate to assemble. Point the template at your brand and start writing.",
+      "steps": [
+        { "title": "Configure", "description": "Edit the site config with your brand name, colors, and navigation. The whole site reskins instantly." },
+        { "title": "Add content", "description": "Write posts and pages in the admin panel. Content is stored in a database and served on demand." },
+        { "title": "Deploy", "description": "Push to your host of choice. Sitemaps, metadata, and redirects are generated automatically." }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "4", "label": "Languages preconfigured" },
+        { "value": "100", "label": "Lighthouse performance target" },
+        { "value": "5 min", "label": "From clone to first deploy" },
+        { "value": "1", "label": "File to rebrand everything" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        { "question": "Do I need to know how to code?", "answer": "Basic familiarity helps for the first setup, but day-to-day editing happens in the admin panel and the single config file." },
+        { "question": "Can I add my own languages?", "answer": "Yes. Add a locale to the config list and provide its translations. Routing and metadata follow automatically." },
+        { "question": "Where is the content stored?", "answer": "Content lives in a database through the built-in content management system, so it scales independently of your code." },
+        { "question": "Is it optimized for search engines?", "answer": "Every page emits canonical URLs, hreflang links, structured data, and a sitemap entry without extra work." },
+        { "question": "Can I change the colors and fonts?", "answer": "Yes. The theme config exposes brand colors, radius, and fonts. Edit the tokens and the whole site updates." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Ready when you are",
+      "title": "Start building your site today",
+      "description": "Clone the template, set your brand, and publish your first page in an afternoon.",
+      "primary": "Get started",
+      "secondary": "See pricing"
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "Features",
+      "description": "A multi-language, SEO-ready website template with a headless content management system and an accessible component library."
+    },
+    "hero": {
+      "eyebrow": "Features",
+      "title": "Everything you need to ship a marketing site",
+      "description": "A complete component library, a content layer, and search-engine optimization, all wired together so you can focus on content.",
+      "primaryCta": "Get started",
+      "secondaryCta": "See pricing"
+    },
+    "list": {
+      "rows": [
+        { "eyebrow": "Content", "title": "Manage content without touching code", "description": "Authors write in a familiar admin panel. The site reads content from a database, so publishing never requires a deploy.", "bullets": ["Draft, schedule, and publish posts", "Organize content with categories and authors", "Localize every field per language"] },
+        { "eyebrow": "Discovery", "title": "Rank well from day one", "description": "Search-engine optimization is built into the routing layer. Each page ships the metadata that search and answer engines expect.", "bullets": ["Canonical URLs and hreflang per locale", "Automatic sitemaps and structured data", "Open Graph and social cards out of the box"] },
+        { "eyebrow": "Experience", "title": "Accessible and fast on every device", "description": "Components use semantic markup and keyboard-friendly interactions. Server rendering keeps pages quick on any connection.", "bullets": ["Mobile-first, responsive layouts", "Keyboard navigation and focus styles", "Optimized images and minimal client code"] }
+      ]
+    },
+    "grid": {
+      "eyebrow": "More built in",
+      "title": "Batteries included",
+      "description": "The details that usually take weeks are already handled.",
+      "items": [
+        { "title": "Locale switcher", "description": "Visitors change language while keeping their place on the page." },
+        { "title": "Redirect management", "description": "Map old URLs to new ones from the admin panel, no code changes required." },
+        { "title": "Blog and pages", "description": "Two content types ready to use, with cards, bylines, and prose styling." },
+        { "title": "Lead capture", "description": "A contact form ready to connect to your inbox or customer relationship tool." },
+        { "title": "Reusable sections", "description": "Hero, feature grids, pricing, and more compose into any page you need." },
+        { "title": "One config file", "description": "Rebrand colors, navigation, social links, and metadata from a single place." }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "10+", "label": "Reusable sections" },
+        { "value": "4", "label": "Languages preconfigured" },
+        { "value": "100%", "label": "Server-rendered pages" },
+        { "value": "0", "label": "Vendor lock-in" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Feature questions",
+      "items": [
+        { "question": "Which content types are included?", "answer": "Blog posts and standalone pages, each with categories, authors, cover images, and per-language fields." },
+        { "question": "Can I compose my own pages?", "answer": "Yes. Every section is a standalone, data-driven component you can arrange into any layout." },
+        { "question": "How are images handled?", "answer": "Images run through the framework optimizer, so they are resized and served in modern formats automatically." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Get building",
+      "title": "See it running for your brand",
+      "description": "Set your config, add a page, and watch the whole site take your identity.",
+      "primary": "Get started",
+      "secondary": "Talk to us"
+    }
+  },
+  "pricing": {
+    "meta": {
+      "title": "Pricing",
+      "description": "Simple, transparent pricing. Start free, upgrade when you grow, and talk to us for enterprise needs."
+    },
+    "hero": {
+      "eyebrow": "Pricing",
+      "title": "Pricing that scales with you",
+      "description": "Start free and only pay as your site and team grow. No hidden fees, no long-term lock-in.",
+      "primaryCta": "Get started",
+      "secondaryCta": "Contact sales"
+    },
+    "tiers": {
+      "eyebrow": "Plans",
+      "title": "Pick the plan that fits",
+      "description": "Every plan includes the full component library and multi-language support.",
+      "items": [
+        { "name": "Starter", "price": "$0", "period": "/month", "description": "Everything you need to launch a small site.", "features": ["Up to 3 pages", "1 language", "Community support", "Search-engine optimization"], "ctaLabel": "Get started" },
+        { "name": "Growth", "price": "$29", "period": "/month", "description": "For teams publishing content regularly.", "features": ["Unlimited pages", "4 languages", "Blog and content management", "Email support", "Lead capture form"], "ctaLabel": "Start free trial", "featured": true },
+        { "name": "Enterprise", "price": "Custom", "description": "For larger teams with custom requirements.", "features": ["Unlimited languages", "Single sign-on", "Dedicated support", "Custom integrations", "Service-level agreement"], "ctaLabel": "Contact sales" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Pricing questions",
+      "items": [
+        { "question": "Is there a free plan?", "answer": "Yes. The Starter plan is free and includes the full component library, one language, and search-engine optimization." },
+        { "question": "Can I change plans later?", "answer": "You can upgrade or downgrade at any time. Changes take effect immediately and billing is prorated." },
+        { "question": "Do you offer discounts?", "answer": "Annual billing comes with a discount, and we offer special pricing for nonprofits and educational teams." },
+        { "question": "What does enterprise include?", "answer": "Enterprise adds unlimited languages, single sign-on, custom integrations, and a service-level agreement with dedicated support." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Still deciding?",
+      "title": "Try it free, no card required",
+      "description": "Launch on the free plan and upgrade only when you are ready.",
+      "primary": "Get started",
+      "secondary": "Contact sales"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About",
+      "description": "We build open tools that help teams ship fast, accessible, multi-language websites."
+    },
+    "hero": {
+      "eyebrow": "About us",
+      "title": "We help teams ship better websites, faster",
+      "description": "Our mission is to make a fast, accessible, multi-language web the default — not a months-long project.",
+      "primaryCta": "See features",
+      "secondaryCta": "Get in touch"
+    },
+    "stats": {
+      "items": [
+        { "value": "2026", "label": "Founded" },
+        { "value": "4", "label": "Languages supported" },
+        { "value": "Open", "label": "Source license" },
+        { "value": "1", "label": "Mission: a better web" }
+      ]
+    },
+    "values": {
+      "eyebrow": "What we believe",
+      "title": "Principles that guide the work",
+      "description": "A few ideas shape every decision we make.",
+      "items": [
+        { "title": "Accessible by default", "description": "A site is only finished when everyone can use it. Accessibility is a starting point, not an add-on." },
+        { "title": "Fast everywhere", "description": "Performance is a feature. We optimize for real devices and real networks, not just demos." },
+        { "title": "Open and portable", "description": "No lock-in. You own your content and your code, and you can take both anywhere." },
+        { "title": "Simple to maintain", "description": "Clear structure and one config surface keep the site easy to run long after launch." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Join us",
+      "title": "Build your next site with us",
+      "description": "Start free today, or reach out to talk about what you are building.",
+      "primary": "Get started",
+      "secondary": "Contact us"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Get in touch. Tell us about your project and we will get back to you."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let us talk about your project",
+      "description": "Tell us what you are building and we will get back to you within one business day."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thanks — your message is on its way. We will reply soon.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "required": "Please fill in your name, email, and message.",
+      "invalidEmail": "Please enter a valid email address."
+    },
+    "info": {
+      "title": "Other ways to reach us",
+      "description": "Prefer email or social? Find us wherever works best for you.",
+      "emailLabel": "Email us"
+    },
+    "next": {
+      "eyebrow": "What happens next",
+      "title": "After you hit send",
+      "steps": [
+        { "title": "We read your note", "description": "A real person reviews your message and the context you shared." },
+        { "title": "We reply", "description": "Expect a thoughtful response within one business day, with next steps." },
+        { "title": "We get going", "description": "If it is a fit, we set up a quick call and start mapping out your site." }
+      ]
+    },
+    "cta": {
+      "title": "Prefer to start on your own?",
+      "description": "Spin up the template on the free plan and reach out whenever you need a hand.",
+      "primary": "Get started"
+    }
+  },
+  "legal": {
+    "lastUpdated": "Last updated {date}",
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": [
+        { "heading": "Overview", "body": ["This Privacy Policy explains what information we collect, how we use it, and the choices you have. It applies to this website and the services offered through it.", "By using the site, you agree to the practices described here. This is a template document and should be reviewed by a qualified professional before publication."] },
+        { "heading": "Information we collect", "body": ["We collect information you provide directly, such as your name and email when you contact us. We also collect limited technical information, such as your browser type and the pages you visit, to keep the site reliable.", "We do not sell your personal information."] },
+        { "heading": "How we use information", "body": ["We use the information to respond to your requests, improve the site, and keep it secure. We retain personal information only as long as needed for these purposes or as required by law."] },
+        { "heading": "Your rights", "body": ["Depending on where you live, you may have the right to access, correct, or delete your personal information. To exercise these rights, contact us using the details on our contact page."] },
+        { "heading": "Contact", "body": ["If you have questions about this policy, please reach out through the contact page and we will respond promptly."] }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "sections": [
+        { "heading": "Acceptance of terms", "body": ["These Terms of Service govern your use of this website. By accessing or using the site, you agree to be bound by these terms. This is a template document and should be reviewed by a qualified professional before publication."] },
+        { "heading": "Use of the site", "body": ["You agree to use the site only for lawful purposes and in a way that does not infringe the rights of others. We may suspend or end access if these terms are violated."] },
+        { "heading": "Intellectual property", "body": ["The content and design of the site are protected by applicable laws. You may not copy, distribute, or create derivative works without permission, except where allowed by the site license."] },
+        { "heading": "Disclaimer", "body": ["The site is provided on an as-is basis without warranties of any kind. We do not guarantee that the site will be uninterrupted, error-free, or secure."] },
+        { "heading": "Changes", "body": ["We may update these terms from time to time. Continued use of the site after changes take effect means you accept the revised terms."] }
+      ]
+    }
   },
   "blog": {
     "title": "Blog",
@@ -33,7 +288,7 @@
     "builtWith": "Built with the Website Builder Optimizer template."
   },
   "seo": {
-    "homeTitle": "Launch a perfectly optimized website",
-    "homeDescription": "Multi-locale, SEO + GEO optimized Next.js site template with its own CMS and an autonomous growth toolchain."
+    "homeTitle": "Launch a fast, multi-language website",
+    "homeDescription": "A multi-language, SEO-ready Next.js website template with a headless content management system and an accessible component library."
   }
 }

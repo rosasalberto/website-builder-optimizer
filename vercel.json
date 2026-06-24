@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    { "path": "/api/cron/warm-top-posts", "schedule": "0 6 * * *" }
+  ],
+  "functions": {
+    "src/app/(payload)/api/[...slug]/route.ts": { "maxDuration": 60 },
+    "src/app/(payload)/admin/[[...segments]]/page.tsx": { "maxDuration": 60 }
+  }
+}

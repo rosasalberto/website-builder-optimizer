@@ -4,7 +4,11 @@
     "getStarted": "Empezar",
     "learnMore": "Saber más",
     "readMore": "Leer más",
-    "loading": "Cargando…"
+    "loading": "Cargando…",
+    "selectLanguage": "Seleccionar idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menu": "Menú"
   },
   "nav": {
     "features": "Funciones",
@@ -14,11 +18,262 @@
     "contact": "Contacto"
   },
   "home": {
-    "eyebrow": "Generador de sitios open source",
-    "title": "Lanza un sitio web perfectamente optimizado en minutos",
-    "subtitle": "Multilingüe, optimizado para SEO + GEO, con su propio CMS y una cadena de crecimiento autónoma — todo en un repositorio.",
+    "eyebrow": "Plantilla web de código abierto",
+    "title": "Lanza un sitio web rápido y multilingüe en minutos",
+    "subtitle": "Publica un sitio de marketing gestionado por contenido con optimización para motores de búsqueda (SEO) integrada, cuatro idiomas y un sistema de gestión de contenidos (CMS) headless, todo desde un único repositorio.",
     "primaryCta": "Empezar",
-    "secondaryCta": "Ver la documentación"
+    "secondaryCta": "Ver funciones",
+    "logosTitle": "La confían equipos que publican en la web",
+    "features": {
+      "eyebrow": "Todo incluido",
+      "title": "Una plantilla, todas las páginas que necesitas",
+      "description": "Edita un solo archivo de configuración para cambiar la marca de todo el sitio. Los componentes, el enrutado y la capa de contenido ya están conectados.",
+      "items": [
+        { "title": "Marca configurable", "description": "Define tu nombre, colores, navegación y redes sociales en un solo archivo. Todas las páginas se actualizan a la vez." },
+        { "title": "Cuatro idiomas de serie", "description": "El enrutado por idioma y el contenido traducido vienen por defecto. Añade o quita idiomas desde una sola lista." },
+        { "title": "Gestión de contenido headless", "description": "Escribe entradas y páginas en un panel de administración respaldado por una base de datos, no en archivos del código." },
+        { "title": "Optimización para buscadores integrada", "description": "Las URL canónicas, hreflang, sitemaps y datos estructurados se generan por ti en cada ruta." },
+        { "title": "Componentes accesibles", "description": "Marcado semántico, navegación por teclado y estilos de foco claros son estándar en toda la biblioteca." },
+        { "title": "Rápido por defecto", "description": "Las páginas renderizadas en el servidor, la optimización de imágenes y el código mínimo en el cliente mantienen tiempos de carga bajos." }
+      ]
+    },
+    "how": {
+      "eyebrow": "Cómo funciona",
+      "title": "De la copia al sitio en vivo en tres pasos",
+      "description": "Sin código repetitivo que ensamblar. Apunta la plantilla a tu marca y empieza a escribir.",
+      "steps": [
+        { "title": "Configura", "description": "Edita la configuración del sitio con tu nombre de marca, colores y navegación. Todo el sitio cambia de aspecto al instante." },
+        { "title": "Añade contenido", "description": "Escribe entradas y páginas en el panel de administración. El contenido se guarda en una base de datos y se sirve bajo demanda." },
+        { "title": "Despliega", "description": "Publica en el proveedor que prefieras. Los sitemaps, los metadatos y las redirecciones se generan automáticamente." }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "4", "label": "Idiomas preconfigurados" },
+        { "value": "100", "label": "Objetivo de rendimiento Lighthouse" },
+        { "value": "5 min", "label": "De la copia al primer despliegue" },
+        { "value": "1", "label": "Archivo para cambiar toda la marca" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas",
+      "title": "Preguntas frecuentes",
+      "items": [
+        { "question": "¿Necesito saber programar?", "answer": "Tener nociones básicas ayuda en la primera configuración, pero la edición del día a día ocurre en el panel de administración y en el único archivo de configuración." },
+        { "question": "¿Puedo añadir mis propios idiomas?", "answer": "Sí. Añade un idioma a la lista de configuración y proporciona sus traducciones. El enrutado y los metadatos se ajustan automáticamente." },
+        { "question": "¿Dónde se guarda el contenido?", "answer": "El contenido vive en una base de datos a través del sistema de gestión de contenidos integrado, por lo que escala con independencia de tu código." },
+        { "question": "¿Está optimizado para buscadores?", "answer": "Cada página emite URL canónicas, enlaces hreflang, datos estructurados y una entrada en el sitemap sin trabajo adicional." },
+        { "question": "¿Puedo cambiar los colores y las tipografías?", "answer": "Sí. La configuración del tema expone los colores de marca, el radio y las fuentes. Edita los tokens y todo el sitio se actualiza." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Cuando quieras",
+      "title": "Empieza a construir tu sitio hoy",
+      "description": "Clona la plantilla, define tu marca y publica tu primera página en una tarde.",
+      "primary": "Empezar",
+      "secondary": "Ver precios"
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "Funciones",
+      "description": "Una plantilla web multilingüe y lista para SEO, con un sistema de gestión de contenidos headless y una biblioteca de componentes accesible."
+    },
+    "hero": {
+      "eyebrow": "Funciones",
+      "title": "Todo lo que necesitas para lanzar un sitio de marketing",
+      "description": "Una biblioteca de componentes completa, una capa de contenido y optimización para buscadores, todo conectado para que te centres en el contenido.",
+      "primaryCta": "Empezar",
+      "secondaryCta": "Ver precios"
+    },
+    "list": {
+      "rows": [
+        { "eyebrow": "Contenido", "title": "Gestiona el contenido sin tocar código", "description": "Los autores escriben en un panel de administración familiar. El sitio lee el contenido desde una base de datos, así que publicar nunca requiere un despliegue.", "bullets": ["Crea borradores, programa y publica entradas", "Organiza el contenido con categorías y autores", "Localiza cada campo por idioma"] },
+        { "eyebrow": "Descubrimiento", "title": "Posiciona bien desde el primer día", "description": "La optimización para buscadores está integrada en la capa de enrutado. Cada página incluye los metadatos que los motores de búsqueda y de respuesta esperan.", "bullets": ["URL canónicas y hreflang por idioma", "Sitemaps y datos estructurados automáticos", "Open Graph y tarjetas sociales de serie"] },
+        { "eyebrow": "Experiencia", "title": "Accesible y rápido en cualquier dispositivo", "description": "Los componentes usan marcado semántico e interacciones aptas para teclado. El renderizado en servidor mantiene las páginas ágiles en cualquier conexión.", "bullets": ["Diseños responsivos, mobile-first", "Navegación por teclado y estilos de foco", "Imágenes optimizadas y código mínimo en cliente"] }
+      ]
+    },
+    "grid": {
+      "eyebrow": "Más de serie",
+      "title": "Todo incluido",
+      "description": "Los detalles que suelen llevar semanas ya están resueltos.",
+      "items": [
+        { "title": "Selector de idioma", "description": "Las personas cambian de idioma sin perder su lugar en la página." },
+        { "title": "Gestión de redirecciones", "description": "Asigna URL antiguas a nuevas desde el panel de administración, sin cambios de código." },
+        { "title": "Blog y páginas", "description": "Dos tipos de contenido listos para usar, con tarjetas, firmas y estilos de prosa." },
+        { "title": "Captación de leads", "description": "Un formulario de contacto listo para conectar a tu bandeja o a tu herramienta de relaciones con clientes." },
+        { "title": "Secciones reutilizables", "description": "Hero, cuadrículas de funciones, precios y más se combinan en cualquier página que necesites." },
+        { "title": "Un solo archivo de configuración", "description": "Cambia colores, navegación, redes sociales y metadatos desde un único lugar." }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "10+", "label": "Secciones reutilizables" },
+        { "value": "4", "label": "Idiomas preconfigurados" },
+        { "value": "100%", "label": "Páginas renderizadas en servidor" },
+        { "value": "0", "label": "Dependencia de proveedor" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas",
+      "title": "Preguntas sobre las funciones",
+      "items": [
+        { "question": "¿Qué tipos de contenido se incluyen?", "answer": "Entradas de blog y páginas independientes, cada una con categorías, autores, imágenes de portada y campos por idioma." },
+        { "question": "¿Puedo componer mis propias páginas?", "answer": "Sí. Cada sección es un componente independiente y basado en datos que puedes organizar en cualquier diseño." },
+        { "question": "¿Cómo se gestionan las imágenes?", "answer": "Las imágenes pasan por el optimizador del framework, así que se redimensionan y se sirven en formatos modernos automáticamente." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Manos a la obra",
+      "title": "Míralo funcionando con tu marca",
+      "description": "Define tu configuración, añade una página y observa cómo todo el sitio adopta tu identidad.",
+      "primary": "Empezar",
+      "secondary": "Habla con nosotros"
+    }
+  },
+  "pricing": {
+    "meta": {
+      "title": "Precios",
+      "description": "Precios sencillos y transparentes. Empieza gratis, mejora a medida que creces y habla con nosotros para necesidades empresariales."
+    },
+    "hero": {
+      "eyebrow": "Precios",
+      "title": "Precios que crecen contigo",
+      "description": "Empieza gratis y paga solo a medida que crecen tu sitio y tu equipo. Sin cargos ocultos ni permanencia.",
+      "primaryCta": "Empezar",
+      "secondaryCta": "Contactar con ventas"
+    },
+    "tiers": {
+      "eyebrow": "Planes",
+      "title": "Elige el plan que encaje",
+      "description": "Todos los planes incluyen la biblioteca de componentes completa y soporte multilingüe.",
+      "items": [
+        { "name": "Inicial", "price": "0 $", "period": "/mes", "description": "Todo lo necesario para lanzar un sitio pequeño.", "features": ["Hasta 3 páginas", "1 idioma", "Soporte de la comunidad", "Optimización para buscadores"], "ctaLabel": "Empezar" },
+        { "name": "Crecimiento", "price": "29 $", "period": "/mes", "description": "Para equipos que publican contenido con regularidad.", "features": ["Páginas ilimitadas", "4 idiomas", "Blog y gestión de contenido", "Soporte por correo", "Formulario de captación de leads"], "ctaLabel": "Probar gratis", "featured": true },
+        { "name": "Empresa", "price": "A medida", "description": "Para equipos grandes con requisitos específicos.", "features": ["Idiomas ilimitados", "Inicio de sesión único", "Soporte dedicado", "Integraciones personalizadas", "Acuerdo de nivel de servicio"], "ctaLabel": "Contactar con ventas" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas",
+      "title": "Preguntas sobre precios",
+      "items": [
+        { "question": "¿Hay un plan gratuito?", "answer": "Sí. El plan Inicial es gratis e incluye la biblioteca de componentes completa, un idioma y optimización para buscadores." },
+        { "question": "¿Puedo cambiar de plan más adelante?", "answer": "Puedes mejorar o reducir tu plan en cualquier momento. Los cambios se aplican de inmediato y la facturación se prorratea." },
+        { "question": "¿Ofrecéis descuentos?", "answer": "La facturación anual incluye un descuento y ofrecemos precios especiales para organizaciones sin ánimo de lucro y equipos educativos." },
+        { "question": "¿Qué incluye el plan de empresa?", "answer": "El plan de empresa añade idiomas ilimitados, inicio de sesión único, integraciones personalizadas y un acuerdo de nivel de servicio con soporte dedicado." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "¿Aún lo estás pensando?",
+      "title": "Pruébalo gratis, sin tarjeta",
+      "description": "Lanza con el plan gratuito y mejora solo cuando estés listo.",
+      "primary": "Empezar",
+      "secondary": "Contactar con ventas"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Nosotros",
+      "description": "Creamos herramientas abiertas que ayudan a los equipos a lanzar sitios web rápidos, accesibles y multilingües."
+    },
+    "hero": {
+      "eyebrow": "Sobre nosotros",
+      "title": "Ayudamos a los equipos a lanzar mejores sitios, más rápido",
+      "description": "Nuestra misión es que una web rápida, accesible y multilingüe sea lo normal, no un proyecto de meses.",
+      "primaryCta": "Ver funciones",
+      "secondaryCta": "Ponte en contacto"
+    },
+    "stats": {
+      "items": [
+        { "value": "2026", "label": "Fundada" },
+        { "value": "4", "label": "Idiomas soportados" },
+        { "value": "Abierto", "label": "Licencia de código" },
+        { "value": "1", "label": "Misión: una web mejor" }
+      ]
+    },
+    "values": {
+      "eyebrow": "En lo que creemos",
+      "title": "Principios que guían el trabajo",
+      "description": "Unas pocas ideas dan forma a cada decisión que tomamos.",
+      "items": [
+        { "title": "Accesible por defecto", "description": "Un sitio solo está terminado cuando todo el mundo puede usarlo. La accesibilidad es un punto de partida, no un añadido." },
+        { "title": "Rápido en todas partes", "description": "El rendimiento es una función. Optimizamos para dispositivos y redes reales, no solo para demos." },
+        { "title": "Abierto y portable", "description": "Sin dependencia de proveedor. Tú eres dueño de tu contenido y tu código, y puedes llevártelos a cualquier parte." },
+        { "title": "Fácil de mantener", "description": "Una estructura clara y una única superficie de configuración hacen que el sitio sea fácil de gestionar mucho después del lanzamiento." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Únete",
+      "title": "Crea tu próximo sitio con nosotros",
+      "description": "Empieza gratis hoy o escríbenos para hablar de lo que estás construyendo.",
+      "primary": "Empezar",
+      "secondary": "Contáctanos"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contacto",
+      "description": "Ponte en contacto. Cuéntanos sobre tu proyecto y te responderemos."
+    },
+    "hero": {
+      "eyebrow": "Contacto",
+      "title": "Hablemos de tu proyecto",
+      "description": "Cuéntanos qué estás construyendo y te responderemos en un día laborable."
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Gracias — tu mensaje está en camino. Te responderemos pronto.",
+      "error": "Algo salió mal. Inténtalo de nuevo o escríbenos directamente.",
+      "required": "Por favor, completa tu nombre, correo y mensaje.",
+      "invalidEmail": "Introduce una dirección de correo válida."
+    },
+    "info": {
+      "title": "Otras formas de contactarnos",
+      "description": "¿Prefieres el correo o las redes sociales? Encuéntranos donde mejor te venga.",
+      "emailLabel": "Escríbenos"
+    },
+    "next": {
+      "eyebrow": "Qué pasa después",
+      "title": "Después de pulsar enviar",
+      "steps": [
+        { "title": "Leemos tu nota", "description": "Una persona real revisa tu mensaje y el contexto que compartes." },
+        { "title": "Respondemos", "description": "Espera una respuesta cuidada en un día laborable, con los siguientes pasos." },
+        { "title": "Nos ponemos en marcha", "description": "Si encaja, organizamos una llamada rápida y empezamos a planificar tu sitio." }
+      ]
+    },
+    "cta": {
+      "title": "¿Prefieres empezar por tu cuenta?",
+      "description": "Pon en marcha la plantilla con el plan gratuito y escríbenos cuando necesites ayuda.",
+      "primary": "Empezar"
+    }
+  },
+  "legal": {
+    "lastUpdated": "Última actualización: {date}",
+    "privacy": {
+      "title": "Política de privacidad",
+      "sections": [
+        { "heading": "Resumen", "body": ["Esta Política de privacidad explica qué información recopilamos, cómo la usamos y qué opciones tienes. Se aplica a este sitio web y a los servicios ofrecidos a través de él.", "Al usar el sitio, aceptas las prácticas aquí descritas. Este es un documento de plantilla y debería ser revisado por un profesional cualificado antes de su publicación."] },
+        { "heading": "Información que recopilamos", "body": ["Recopilamos la información que nos facilitas directamente, como tu nombre y correo cuando nos contactas. También recopilamos información técnica limitada, como tu tipo de navegador y las páginas que visitas, para mantener el sitio fiable.", "No vendemos tu información personal."] },
+        { "heading": "Cómo usamos la información", "body": ["Usamos la información para responder a tus solicitudes, mejorar el sitio y mantenerlo seguro. Conservamos los datos personales solo durante el tiempo necesario para estos fines o el exigido por la ley."] },
+        { "heading": "Tus derechos", "body": ["Según dónde residas, puedes tener derecho a acceder a tus datos personales, corregirlos o eliminarlos. Para ejercer estos derechos, contáctanos con los datos de nuestra página de contacto."] },
+        { "heading": "Contacto", "body": ["Si tienes preguntas sobre esta política, escríbenos a través de la página de contacto y te responderemos sin demora."] }
+      ]
+    },
+    "terms": {
+      "title": "Términos del servicio",
+      "sections": [
+        { "heading": "Aceptación de los términos", "body": ["Estos Términos del servicio rigen tu uso de este sitio web. Al acceder o usar el sitio, aceptas quedar vinculado por estos términos. Este es un documento de plantilla y debería ser revisado por un profesional cualificado antes de su publicación."] },
+        { "heading": "Uso del sitio", "body": ["Te comprometes a usar el sitio solo con fines lícitos y de una forma que no vulnere los derechos de terceros. Podemos suspender o terminar el acceso si se incumplen estos términos."] },
+        { "heading": "Propiedad intelectual", "body": ["El contenido y el diseño del sitio están protegidos por las leyes aplicables. No puedes copiar, distribuir ni crear obras derivadas sin permiso, salvo lo permitido por la licencia del sitio."] },
+        { "heading": "Descargo de responsabilidad", "body": ["El sitio se ofrece tal cual, sin garantías de ningún tipo. No garantizamos que el sitio sea ininterrumpido, esté libre de errores o sea seguro."] },
+        { "heading": "Cambios", "body": ["Podemos actualizar estos términos de vez en cuando. El uso continuado del sitio tras la entrada en vigor de los cambios implica que aceptas los términos revisados."] }
+      ]
+    }
   },
   "blog": {
     "title": "Blog",
@@ -33,7 +288,7 @@
     "builtWith": "Creado con la plantilla Website Builder Optimizer."
   },
   "seo": {
-    "homeTitle": "Lanza un sitio web perfectamente optimizado",
-    "homeDescription": "Plantilla de sitio Next.js multilingüe, optimizada para SEO + GEO, con su propio CMS y una cadena de crecimiento autónoma."
+    "homeTitle": "Lanza un sitio web rápido y multilingüe",
+    "homeDescription": "Plantilla de sitio Next.js multilingüe y lista para SEO, con un sistema de gestión de contenidos headless y una biblioteca de componentes accesible."
   }
 }

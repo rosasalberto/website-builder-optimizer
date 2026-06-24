@@ -65,6 +65,11 @@ export default buildConfig({
       titleSuffix: `— ${siteConfig.brand.name} CMS`,
     },
   },
+  // Payload REST/GraphQL lives under /api/payload so the marketing app keeps
+  // /api/* (og, form, revalidate, cron) free of the [...slug] catch-all.
+  routes: {
+    api: "/api/payload",
+  },
   collections: [Posts, Categories, Authors, Media, Users, Redirects],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "CHANGE_ME_dev_secret",
