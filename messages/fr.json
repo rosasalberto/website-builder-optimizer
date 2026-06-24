@@ -4,7 +4,11 @@
     "getStarted": "Commencer",
     "learnMore": "En savoir plus",
     "readMore": "Lire la suite",
-    "loading": "Chargement…"
+    "loading": "Chargement…",
+    "selectLanguage": "Choisir la langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menu": "Menu"
   },
   "nav": {
     "features": "Fonctionnalités",
@@ -14,11 +18,262 @@
     "contact": "Contact"
   },
   "home": {
-    "eyebrow": "Générateur de sites open source",
-    "title": "Lancez un site web parfaitement optimisé en quelques minutes",
-    "subtitle": "Multilingue, optimisé pour le SEO + GEO, avec son propre CMS et une chaîne de croissance autonome — le tout dans un seul dépôt.",
+    "eyebrow": "Modèle de site open source",
+    "title": "Lancez un site multilingue et rapide en quelques minutes",
+    "subtitle": "Publiez un site marketing géré par contenu, avec optimisation pour les moteurs de recherche (SEO) intégrée, quatre langues et un système de gestion de contenu (CMS) headless — le tout dans un seul dépôt.",
     "primaryCta": "Commencer",
-    "secondaryCta": "Voir la documentation"
+    "secondaryCta": "Voir les fonctionnalités",
+    "logosTitle": "La confiance des équipes qui publient sur le web",
+    "features": {
+      "eyebrow": "Tout est inclus",
+      "title": "Un seul modèle, toutes les pages dont vous avez besoin",
+      "description": "Modifiez un fichier de configuration pour rhabiller tout le site. Les composants, le routage et la couche de contenu sont déjà câblés.",
+      "items": [
+        { "title": "Image de marque pilotée par config", "description": "Définissez votre nom, vos couleurs, votre navigation et vos liens sociaux dans un seul fichier. Toutes les pages se mettent à jour d’un coup." },
+        { "title": "Quatre langues prêtes à l’emploi", "description": "Le routage par langue et le contenu traduit sont fournis par défaut. Ajoutez ou retirez des langues depuis une seule liste." },
+        { "title": "Gestion de contenu headless", "description": "Rédigez articles et pages dans un panneau d’administration adossé à une base de données, pas dans des fichiers du code." },
+        { "title": "Optimisation pour les moteurs de recherche intégrée", "description": "Les URL canoniques, le hreflang, les sitemaps et les données structurées sont générés pour vous sur chaque route." },
+        { "title": "Composants accessibles", "description": "Repères sémantiques, navigation au clavier et styles de focus clairs sont standard dans toute la bibliothèque." },
+        { "title": "Rapide par défaut", "description": "Pages rendues côté serveur, optimisation des images et code client minimal maintiennent des temps de chargement bas." }
+      ]
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Du clone au site en ligne en trois étapes",
+      "description": "Aucun assemblage fastidieux. Pointez le modèle vers votre marque et commencez à écrire.",
+      "steps": [
+        { "title": "Configurer", "description": "Modifiez la configuration du site avec votre nom de marque, vos couleurs et votre navigation. Tout le site change d’apparence instantanément." },
+        { "title": "Ajouter du contenu", "description": "Rédigez articles et pages dans le panneau d’administration. Le contenu est stocké en base de données et servi à la demande." },
+        { "title": "Déployer", "description": "Publiez chez l’hébergeur de votre choix. Sitemaps, métadonnées et redirections sont générés automatiquement." }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "4", "label": "Langues préconfigurées" },
+        { "value": "100", "label": "Objectif de performance Lighthouse" },
+        { "value": "5 min", "label": "Du clone au premier déploiement" },
+        { "value": "1", "label": "Fichier pour tout rhabiller" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Questions fréquentes",
+      "items": [
+        { "question": "Faut-il savoir coder ?", "answer": "Des notions de base aident pour la première configuration, mais l’édition au quotidien se fait dans le panneau d’administration et l’unique fichier de configuration." },
+        { "question": "Puis-je ajouter mes propres langues ?", "answer": "Oui. Ajoutez une langue à la liste de configuration et fournissez ses traductions. Le routage et les métadonnées suivent automatiquement." },
+        { "question": "Où le contenu est-il stocké ?", "answer": "Le contenu réside dans une base de données via le système de gestion de contenu intégré, il évolue donc indépendamment de votre code." },
+        { "question": "Est-ce optimisé pour les moteurs de recherche ?", "answer": "Chaque page émet des URL canoniques, des liens hreflang, des données structurées et une entrée de sitemap sans travail supplémentaire." },
+        { "question": "Puis-je changer les couleurs et les polices ?", "answer": "Oui. La configuration du thème expose les couleurs de marque, le rayon et les polices. Modifiez les tokens et tout le site se met à jour." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Quand vous voulez",
+      "title": "Commencez à construire votre site dès aujourd’hui",
+      "description": "Clonez le modèle, définissez votre marque et publiez votre première page en un après-midi.",
+      "primary": "Commencer",
+      "secondary": "Voir les tarifs"
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "Fonctionnalités",
+      "description": "Un modèle de site multilingue et prêt pour le SEO, avec un système de gestion de contenu headless et une bibliothèque de composants accessible."
+    },
+    "hero": {
+      "eyebrow": "Fonctionnalités",
+      "title": "Tout ce qu’il faut pour lancer un site marketing",
+      "description": "Une bibliothèque de composants complète, une couche de contenu et l’optimisation pour les moteurs de recherche, le tout connecté pour que vous vous concentriez sur le contenu.",
+      "primaryCta": "Commencer",
+      "secondaryCta": "Voir les tarifs"
+    },
+    "list": {
+      "rows": [
+        { "eyebrow": "Contenu", "title": "Gérez le contenu sans toucher au code", "description": "Les auteurs écrivent dans un panneau d’administration familier. Le site lit le contenu depuis une base de données, publier ne requiert donc jamais de déploiement.", "bullets": ["Brouillons, planification et publication d’articles", "Organisation du contenu par catégories et auteurs", "Localisation de chaque champ par langue"] },
+        { "eyebrow": "Visibilité", "title": "Bien se positionner dès le premier jour", "description": "L’optimisation pour les moteurs de recherche est intégrée à la couche de routage. Chaque page fournit les métadonnées attendues par les moteurs de recherche et de réponse.", "bullets": ["URL canoniques et hreflang par langue", "Sitemaps et données structurées automatiques", "Open Graph et cartes sociales prêtes à l’emploi"] },
+        { "eyebrow": "Expérience", "title": "Accessible et rapide sur chaque appareil", "description": "Les composants utilisent un balisage sémantique et des interactions adaptées au clavier. Le rendu serveur garde les pages rapides sur toute connexion.", "bullets": ["Mises en page responsives, mobile d’abord", "Navigation au clavier et styles de focus", "Images optimisées et code client minimal"] }
+      ]
+    },
+    "grid": {
+      "eyebrow": "Encore plus inclus",
+      "title": "Tout est fourni",
+      "description": "Les détails qui prennent d’ordinaire des semaines sont déjà réglés.",
+      "items": [
+        { "title": "Sélecteur de langue", "description": "Les visiteurs changent de langue tout en gardant leur place sur la page." },
+        { "title": "Gestion des redirections", "description": "Associez les anciennes URL aux nouvelles depuis le panneau d’administration, sans modifier le code." },
+        { "title": "Blog et pages", "description": "Deux types de contenu prêts à l’emploi, avec cartes, signatures et mise en forme du texte." },
+        { "title": "Capture de prospects", "description": "Un formulaire de contact prêt à connecter à votre boîte mail ou votre outil de relation client." },
+        { "title": "Sections réutilisables", "description": "Hero, grilles de fonctionnalités, tarifs et plus se composent en toute page voulue." },
+        { "title": "Un seul fichier de config", "description": "Changez couleurs, navigation, liens sociaux et métadonnées depuis un seul endroit." }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "10+", "label": "Sections réutilisables" },
+        { "value": "4", "label": "Langues préconfigurées" },
+        { "value": "100%", "label": "Pages rendues côté serveur" },
+        { "value": "0", "label": "Dépendance à un fournisseur" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Questions sur les fonctionnalités",
+      "items": [
+        { "question": "Quels types de contenu sont inclus ?", "answer": "Des articles de blog et des pages autonomes, chacun avec catégories, auteurs, images de couverture et champs par langue." },
+        { "question": "Puis-je composer mes propres pages ?", "answer": "Oui. Chaque section est un composant autonome piloté par données que vous arrangez dans n’importe quelle mise en page." },
+        { "question": "Comment les images sont-elles gérées ?", "answer": "Les images passent par l’optimiseur du framework : elles sont redimensionnées et servies dans des formats modernes automatiquement." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Lancez-vous",
+      "title": "Voyez-le tourner pour votre marque",
+      "description": "Définissez votre config, ajoutez une page et regardez tout le site adopter votre identité.",
+      "primary": "Commencer",
+      "secondary": "Nous contacter"
+    }
+  },
+  "pricing": {
+    "meta": {
+      "title": "Tarifs",
+      "description": "Des tarifs simples et transparents. Démarrez gratuitement, montez en gamme à mesure que vous grandissez, et parlez-nous pour les besoins entreprise."
+    },
+    "hero": {
+      "eyebrow": "Tarifs",
+      "title": "Des tarifs qui évoluent avec vous",
+      "description": "Démarrez gratuitement et ne payez qu’à mesure que votre site et votre équipe grandissent. Pas de frais cachés, pas d’engagement de longue durée.",
+      "primaryCta": "Commencer",
+      "secondaryCta": "Contacter l’équipe commerciale"
+    },
+    "tiers": {
+      "eyebrow": "Formules",
+      "title": "Choisissez la formule qui vous convient",
+      "description": "Chaque formule inclut la bibliothèque de composants complète et la prise en charge multilingue.",
+      "items": [
+        { "name": "Starter", "price": "0 $", "period": "/mois", "description": "Tout le nécessaire pour lancer un petit site.", "features": ["Jusqu’à 3 pages", "1 langue", "Support communautaire", "Optimisation pour les moteurs de recherche"], "ctaLabel": "Commencer" },
+        { "name": "Growth", "price": "29 $", "period": "/mois", "description": "Pour les équipes qui publient régulièrement.", "features": ["Pages illimitées", "4 langues", "Blog et gestion de contenu", "Support par e-mail", "Formulaire de capture de prospects"], "ctaLabel": "Démarrer l’essai gratuit", "featured": true },
+        { "name": "Enterprise", "price": "Sur mesure", "description": "Pour les grandes équipes aux besoins spécifiques.", "features": ["Langues illimitées", "Authentification unique (SSO)", "Support dédié", "Intégrations sur mesure", "Accord de niveau de service"], "ctaLabel": "Contacter l’équipe commerciale" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Questions sur les tarifs",
+      "items": [
+        { "question": "Existe-t-il une formule gratuite ?", "answer": "Oui. La formule Starter est gratuite et inclut la bibliothèque de composants complète, une langue et l’optimisation pour les moteurs de recherche." },
+        { "question": "Puis-je changer de formule plus tard ?", "answer": "Vous pouvez monter ou descendre de formule à tout moment. Les changements prennent effet immédiatement et la facturation est calculée au prorata." },
+        { "question": "Proposez-vous des remises ?", "answer": "La facturation annuelle s’accompagne d’une remise, et nous proposons des tarifs spéciaux aux associations et aux équipes éducatives." },
+        { "question": "Que comprend la formule entreprise ?", "answer": "L’offre Enterprise ajoute langues illimitées, authentification unique, intégrations sur mesure et un accord de niveau de service avec support dédié." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Encore hésitant ?",
+      "title": "Essayez gratuitement, sans carte bancaire",
+      "description": "Lancez-vous avec la formule gratuite et montez en gamme seulement quand vous êtes prêt.",
+      "primary": "Commencer",
+      "secondary": "Contacter l’équipe commerciale"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "À propos",
+      "description": "Nous concevons des outils ouverts qui aident les équipes à livrer des sites rapides, accessibles et multilingues."
+    },
+    "hero": {
+      "eyebrow": "À propos",
+      "title": "Nous aidons les équipes à livrer de meilleurs sites, plus vite",
+      "description": "Notre mission : faire du web rapide, accessible et multilingue la norme — pas un projet de plusieurs mois.",
+      "primaryCta": "Voir les fonctionnalités",
+      "secondaryCta": "Nous contacter"
+    },
+    "stats": {
+      "items": [
+        { "value": "2026", "label": "Année de création" },
+        { "value": "4", "label": "Langues prises en charge" },
+        { "value": "Open", "label": "Licence open source" },
+        { "value": "1", "label": "Mission : un meilleur web" }
+      ]
+    },
+    "values": {
+      "eyebrow": "Ce en quoi nous croyons",
+      "title": "Les principes qui guident le travail",
+      "description": "Quelques idées façonnent chacune de nos décisions.",
+      "items": [
+        { "title": "Accessible par défaut", "description": "Un site n’est terminé que lorsque tout le monde peut l’utiliser. L’accessibilité est un point de départ, pas une option." },
+        { "title": "Rapide partout", "description": "La performance est une fonctionnalité. Nous optimisons pour de vrais appareils et de vrais réseaux, pas seulement pour les démos." },
+        { "title": "Ouvert et portable", "description": "Aucun verrouillage. Vous possédez votre contenu et votre code, et vous pouvez les emporter partout." },
+        { "title": "Simple à maintenir", "description": "Une structure claire et une seule surface de configuration gardent le site facile à gérer longtemps après le lancement." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Rejoignez-nous",
+      "title": "Construisez votre prochain site avec nous",
+      "description": "Démarrez gratuitement aujourd’hui, ou écrivez-nous pour parler de ce que vous construisez.",
+      "primary": "Commencer",
+      "secondary": "Nous contacter"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Prenez contact. Parlez-nous de votre projet et nous vous répondrons."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Parlons de votre projet",
+      "description": "Dites-nous ce que vous construisez et nous vous répondrons sous un jour ouvré."
+    },
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "company": "Entreprise",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "sending": "Envoi…",
+      "success": "Merci — votre message est en route. Nous répondrons bientôt.",
+      "error": "Une erreur s’est produite. Réessayez ou écrivez-nous directement.",
+      "required": "Veuillez renseigner votre nom, votre e-mail et votre message.",
+      "invalidEmail": "Veuillez saisir une adresse e-mail valide."
+    },
+    "info": {
+      "title": "Autres façons de nous joindre",
+      "description": "Vous préférez l’e-mail ou les réseaux sociaux ? Retrouvez-nous là où cela vous convient.",
+      "emailLabel": "Écrivez-nous"
+    },
+    "next": {
+      "eyebrow": "Et ensuite",
+      "title": "Après l’envoi",
+      "steps": [
+        { "title": "Nous lisons votre message", "description": "Une vraie personne examine votre message et le contexte partagé." },
+        { "title": "Nous répondons", "description": "Attendez-vous à une réponse réfléchie sous un jour ouvré, avec les prochaines étapes." },
+        { "title": "Nous démarrons", "description": "Si tout concorde, nous organisons un court appel et commençons à cartographier votre site." }
+      ]
+    },
+    "cta": {
+      "title": "Vous préférez démarrer seul ?",
+      "description": "Lancez le modèle avec la formule gratuite et contactez-nous dès que vous avez besoin d’un coup de main.",
+      "primary": "Commencer"
+    }
+  },
+  "legal": {
+    "lastUpdated": "Dernière mise à jour {date}",
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "sections": [
+        { "heading": "Aperçu", "body": ["Cette politique de confidentialité explique quelles informations nous collectons, comment nous les utilisons et les choix dont vous disposez. Elle s’applique à ce site et aux services proposés à travers lui.", "En utilisant le site, vous acceptez les pratiques décrites ici. Ce document est un modèle et doit être revu par un professionnel qualifié avant publication."] },
+        { "heading": "Informations que nous collectons", "body": ["Nous collectons les informations que vous fournissez directement, comme votre nom et votre e-mail lorsque vous nous contactez. Nous collectons aussi des informations techniques limitées, comme votre type de navigateur et les pages visitées, pour garder le site fiable.", "Nous ne vendons pas vos informations personnelles."] },
+        { "heading": "Comment nous utilisons les informations", "body": ["Nous utilisons ces informations pour répondre à vos demandes, améliorer le site et le maintenir sécurisé. Nous conservons les informations personnelles uniquement le temps nécessaire à ces fins ou tel que requis par la loi."] },
+        { "heading": "Vos droits", "body": ["Selon votre lieu de résidence, vous pouvez avoir le droit d’accéder à vos informations personnelles, de les corriger ou de les supprimer. Pour exercer ces droits, contactez-nous via les coordonnées de notre page de contact."] },
+        { "heading": "Contact", "body": ["Pour toute question sur cette politique, écrivez-nous via la page de contact et nous répondrons rapidement."] }
+      ]
+    },
+    "terms": {
+      "title": "Conditions d’utilisation",
+      "sections": [
+        { "heading": "Acceptation des conditions", "body": ["Ces conditions d’utilisation régissent votre usage de ce site. En accédant au site ou en l’utilisant, vous acceptez d’être lié par ces conditions. Ce document est un modèle et doit être revu par un professionnel qualifié avant publication."] },
+        { "heading": "Utilisation du site", "body": ["Vous acceptez d’utiliser le site uniquement à des fins licites et d’une manière qui ne porte pas atteinte aux droits d’autrui. Nous pouvons suspendre ou interrompre l’accès en cas de violation de ces conditions."] },
+        { "heading": "Propriété intellectuelle", "body": ["Le contenu et le design du site sont protégés par les lois applicables. Vous ne pouvez copier, distribuer ou créer des œuvres dérivées sans autorisation, sauf dans les limites permises par la licence du site."] },
+        { "heading": "Avertissement", "body": ["Le site est fourni « en l’état », sans garantie d’aucune sorte. Nous ne garantissons pas que le site sera ininterrompu, exempt d’erreurs ou sécurisé."] },
+        { "heading": "Modifications", "body": ["Nous pouvons mettre à jour ces conditions de temps à autre. Continuer à utiliser le site après l’entrée en vigueur des changements vaut acceptation des conditions révisées."] }
+      ]
+    }
   },
   "blog": {
     "title": "Blog",
@@ -33,7 +288,7 @@
     "builtWith": "Conçu avec le modèle Website Builder Optimizer."
   },
   "seo": {
-    "homeTitle": "Lancez un site web parfaitement optimisé",
-    "homeDescription": "Modèle de site Next.js multilingue, optimisé pour le SEO + GEO, avec son propre CMS et une chaîne de croissance autonome."
+    "homeTitle": "Lancez un site multilingue et rapide",
+    "homeDescription": "Un modèle de site Next.js multilingue et prêt pour le SEO, avec un système de gestion de contenu headless et une bibliothèque de composants accessible."
   }
 }
