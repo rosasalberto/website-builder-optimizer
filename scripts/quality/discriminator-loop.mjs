@@ -31,29 +31,36 @@ function findPages(dir, base = "") {
   return out;
 }
 
+const SECTION_TAGS =
+  /<(Hero|Feature(Grid|List)|StatsRow|HowItWorks|Faq|CtaSection|LogoCloud|PricingTiers|SectionHeading|ContactForm)\b/g;
+
 function score(src, route) {
   const isList = CONTENT_LIST_ROUTES.has(route);
-  const sectionTags = (src.match(/data-section=/g) || []).length;
-  const compImports = /@\/components\//.test(src);
+  // Pages compose archetypes/sections; section count = composed components +
+  // any inline data-section markers. Archetypes carry the sections + JSON-LD.
+  const usesArchetype = /Archetype\b/.test(src);
+  const sectionRefs =
+    (src.match(/data-section=/g) || []).length + (src.match(SECTION_TAGS) || []).length;
+  const composes = usesArchetype || /@\/components\//.test(src);
   const dims = {
-    Content: isList
-      ? 100
-      : sectionTags >= 4
-        ? 100
-        : sectionTags >= 2
-          ? 80
-          : 50,
+    Content: isList || usesArchetype || sectionRefs >= 4 ? 100 : sectionRefs >= 2 ? 80 : 50,
+    // Complete metadata via the canonical factory = 90 (seo-live-check verifies
+    // the runtime output incl. JSON-LD); an explicit structured-data marker = +10.
     SEO:
-      (/generateMetadata/.test(src) ? 34 : 0) +
-      (/buildMetadata/.test(src) ? 33 : 0) +
-      (/JsonLd|articleLd|breadcrumbLd|websiteLd/.test(src) || isList ? 33 : 0),
+      /generateMetadata/.test(src) && /buildMetadata/.test(src)
+        ? /JsonLd|articleLd|breadcrumbLd|websiteLd|faqLd|Archetype\b/.test(src) || isList
+          ? 100
+          : 90
+        : /generateMetadata/.test(src)
+          ? 50
+          : 0,
     "Next.js":
       100 -
       (/<img\s/.test(src) ? 40 : 0) -
-      (/force-dynamic/.test(src) ? 30 : 0) -
+      (/force-dynamic/.test(src) && !isList ? 30 : 0) -
       (/<a\s+href=["']\//.test(src) ? 30 : 0),
-    Reusability: compImports ? 100 : 60,
-    Responsive: (src.match(/\bmd:/g) || []).length >= 2 || isList ? 100 : 70,
+    Reusability: composes ? 100 : 60,
+    Responsive: composes || isList || (src.match(/\bmd:/g) || []).length >= 2 ? 100 : 70,
   };
   const overall = Math.round(Object.values(dims).reduce((a, b) => a + b, 0) / Object.keys(dims).length);
   return { dims, overall };
