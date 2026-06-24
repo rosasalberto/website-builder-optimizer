@@ -1,0 +1,39 @@
+{
+  "common": {
+    "skipToContent": "Skip to content",
+    "getStarted": "Get started",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "Open-source website builder",
+    "title": "Launch a perfectly optimized website in minutes",
+    "subtitle": "Multi-locale, SEO + GEO optimized, with its own CMS and an autonomous growth toolchain — all in one repo.",
+    "primaryCta": "Get started",
+    "secondaryCta": "Read the docs"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Insights, guides, and updates.",
+    "readArticle": "Read article",
+    "publishedOn": "Published on {date}",
+    "by": "by {author}",
+    "noPosts": "No posts yet."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with the Website Builder Optimizer template."
+  },
+  "seo": {
+    "homeTitle": "Launch a perfectly optimized website",
+    "homeDescription": "Multi-locale, SEO + GEO optimized Next.js site template with its own CMS and an autonomous growth toolchain."
+  }
+}

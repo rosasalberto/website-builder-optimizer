@@ -1,0 +1,39 @@
+{
+  "common": {
+    "skipToContent": "Aller au contenu",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "readMore": "Lire la suite",
+    "loading": "Chargement…"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "blog": "Blog",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "Générateur de sites open source",
+    "title": "Lancez un site web parfaitement optimisé en quelques minutes",
+    "subtitle": "Multilingue, optimisé pour le SEO + GEO, avec son propre CMS et une chaîne de croissance autonome — le tout dans un seul dépôt.",
+    "primaryCta": "Commencer",
+    "secondaryCta": "Voir la documentation"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Analyses, guides et actualités.",
+    "readArticle": "Lire l’article",
+    "publishedOn": "Publié le {date}",
+    "by": "par {author}",
+    "noPosts": "Aucun article pour le moment."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "builtWith": "Conçu avec le modèle Website Builder Optimizer."
+  },
+  "seo": {
+    "homeTitle": "Lancez un site web parfaitement optimisé",
+    "homeDescription": "Modèle de site Next.js multilingue, optimisé pour le SEO + GEO, avec son propre CMS et une chaîne de croissance autonome."
+  }
+}

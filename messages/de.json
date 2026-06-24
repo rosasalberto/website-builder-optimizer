@@ -1,0 +1,39 @@
+{
+  "common": {
+    "skipToContent": "Zum Inhalt springen",
+    "getStarted": "Loslegen",
+    "learnMore": "Mehr erfahren",
+    "readMore": "Weiterlesen",
+    "loading": "Wird geladen…"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "blog": "Blog",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "eyebrow": "Open-Source-Website-Builder",
+    "title": "Starten Sie in Minuten eine perfekt optimierte Website",
+    "subtitle": "Mehrsprachig, SEO- + GEO-optimiert, mit eigenem CMS und einer autonomen Wachstums-Toolchain — alles in einem Repository.",
+    "primaryCta": "Loslegen",
+    "secondaryCta": "Dokumentation lesen"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Einblicke, Anleitungen und Neuigkeiten.",
+    "readArticle": "Artikel lesen",
+    "publishedOn": "Veröffentlicht am {date}",
+    "by": "von {author}",
+    "noPosts": "Noch keine Beiträge."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "builtWith": "Erstellt mit der Website-Builder-Optimizer-Vorlage."
+  },
+  "seo": {
+    "homeTitle": "Starten Sie eine perfekt optimierte Website",
+    "homeDescription": "Mehrsprachige Next.js-Website-Vorlage, SEO- + GEO-optimiert, mit eigenem CMS und autonomer Wachstums-Toolchain."
+  }
+}
