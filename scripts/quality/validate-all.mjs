@@ -51,7 +51,12 @@ run("artifact-size", "node", ["scripts/quality/check-artifact-size.mjs"]);
 // 7 boot + live checks
 const port = await freePort();
 const base = `http://localhost:${port}`;
-const server = spawn("pnpm", ["start", "--port", String(port)], { cwd: ROOT, env, stdio: "ignore" });
+// `pnpm exec next start -p` so the port reliably reaches Next (pnpm doesn't always forward --port).
+const server = spawn("pnpm", ["exec", "next", "start", "-p", String(port)], {
+  cwd: ROOT,
+  env,
+  stdio: "ignore",
+});
 const up = await waitFor(base, 60);
 if (!up) { results.push({ name: "boot", ok: false, ms: 0 }); server.kill(); finish(); }
 run("seo-live-check", "node", ["scripts/quality/seo-live-check.mjs"], { env: { ...env, BASE: base } });
